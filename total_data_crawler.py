@@ -7,7 +7,8 @@ import datetime
 import csv
 
 ### 請求網頁並文字解析
-res = requests.get("http://uba.tw/110/Schedule/Details?scheduleId=61E4C940-F182-4912-9241-7599A148EC52")
+######################## 需修改網址##################################################
+res = requests.get("http://uba.tw/107/Schedule/Details?scheduleId=52FF3042-E401-4425-BBE5-6E23A0A2A086")
 res.text
 
 ### 以 HTML 解析
