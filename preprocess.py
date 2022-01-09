@@ -11,6 +11,9 @@ header = line[0]
 header[3] = '兩分命中率'
 header[5] = '三分命中率'
 header[7] = '罰球命中率'
+header[8] += '籃板'
+header[9] += '籃板'
+header[10] += '籃板'
 line.pop(0)
 
 data = pd.DataFrame(line, columns=header)
